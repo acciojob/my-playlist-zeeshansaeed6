@@ -6,12 +6,17 @@ h1, h2 {
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 ul li {
   list-style-type: none;
 }
 
-ul li a {
-  text-decoration-line: none;
+ul li a, a {
+  text-decoration: none;
 }
 
 .player_one,
